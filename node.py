@@ -8,4 +8,10 @@ class Node:
         self.value = value
         self.link_node = link_node
 
-    
+    # Method to get value
+    def get_value(self):
+        return self.value
+
+    # Method to get link
+    def get_link_node(self):
+        return self.link_node
