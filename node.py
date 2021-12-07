@@ -15,3 +15,7 @@ class Node:
     # Method to get link
     def get_link_node(self):
         return self.link_node
+
+    # Method to set link node
+    def set_link_node(self, link_node):
+        self.link_node = link_node
